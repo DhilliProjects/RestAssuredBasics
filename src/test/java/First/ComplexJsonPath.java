@@ -6,7 +6,8 @@ import Files.Payloads;
 import io.restassured.path.json.JsonPath;
 
 //Practicing NestedJson
-//Check 'Payloads' class for json data
+//Here, we are not going to any API, so no 'RestAsssured.BaseURI'. We are just trying to get data from the Json body in different ways
+//Check 'Payloads' class for json data - we used the 'Payloads' class here
 public class ComplexJsonPath {
 
 	public static void main(String[] args) {
